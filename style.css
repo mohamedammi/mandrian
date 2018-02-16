@@ -1,0 +1,128 @@
+body, html{
+	margin: 0;
+	width: 100%;
+	height:100%;
+
+
+}
+.mandrian{
+	width: 100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	display: flex;
+	flex:1;
+	justify-content: flex-start;
+}
+.header__element1{
+	flex:1;
+	border: solid;
+	background-color: yellow;
+}
+.header__element2{
+	border: solid;
+	flex:4;
+	background-color: red;
+}
+.header__element3{
+	flex:3;
+	border: solid;
+	background-color: blue;
+}
+
+.content{
+	display: flex;
+	flex: 5;
+
+}
+.content__asideL{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+}
+.asideL__element1{
+	flex:3;
+	border: solid;
+	background-color: transparent;
+}
+.asideL__element2{
+	flex:2;
+	border: solid;
+	background-color: blue;
+}
+
+.content__asideR{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+}
+.asideR__element1{
+	flex:1;
+	border: solid;
+	background-color: transparent;
+}
+.asideR__element2{
+	flex:1;
+	border: solid;
+	background-color: red;
+}
+.asideR__element3{
+	flex:1;
+	border: solid;
+	background-color: yellow;
+}
+.asideR__element4{
+	flex:1;
+	border: solid;
+	background-color: red;
+}
+
+
+.content__container{
+	flex:6;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.container__element1{
+	flex:1;
+	background-color: transparent;
+ 	border: solid;
+}
+.container__element2{
+	flex: 1;
+	display: flex;
+	flex-direction: row;	
+}
+.element2__gauche{
+	background-color: blue;
+ 	border: solid;
+ 	flex: 1;
+}
+.element2__milieu{
+	background-color: yellow;
+ 	border: solid;
+ 	flex:2;
+}
+.element2__droite{
+	background-color: blue;
+ 	border: solid;
+ 	flex: 2;
+}
+.container__element3{
+	display: flex;
+	flex-direction: row;
+	flex: 2;
+}
+.element3__gauche{
+	background-color: red;
+ 	border: solid;
+ 	flex: 3;
+}
+.element3__droite{
+	background-color: transparent;
+ 	border: solid;
+ 	flex: 2;
+}
